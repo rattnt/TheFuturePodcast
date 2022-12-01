@@ -15,6 +15,7 @@ body, html {
   line-height: 1.8;
 }
 
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
@@ -61,8 +62,8 @@ body, html {
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button">HEM</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> SENASTE</a>
+    <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i>HEM</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-calendar"></i> SENASTE</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> AVSNITT</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> KONTAKTA OSS</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
@@ -89,18 +90,36 @@ body, html {
 <!-- Containerhejehje (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">SENASTE AVSNITT</h3>
-  <div class="w3-center"><img src="images/First image logo.jpg" width="600" height="300"></div> 
   <div class="w3-center"><p>I dagens avsnitt snackar grabbarna grus om företaget Amazon. Ja...</p></div>
+  <div class="w3-center"><img src="images/senaste avsnitt.jpg" width="600" height="300">
+    
+</div> 
+<div class="w3-center w3-padding-32"><audio controls>
+    <source src="images/podcast.ogg" type="audio/ogg">
+  </audio>
+</div>
+  
   <div class="w3-row">
      <div class="w3-center">
       <div class="w3-xlarge w3-section">
-        <i class="fa fa-youtube w3-hover-opacity w3-margin-right"></i>
-        <i class="fa fa-soundcloud w3-hover-opacity w3-margin-right"></i>
-        <i class="fa fa-spotify w3-hover-opacity w3-margin-right"></i>
-        <i class="fa fa-apple w3-hover-opacity w3-margin-right"></i>
-        <i class="fa fa-amazon w3-hover-opacity w3-margin-right"></i>
+        <a href="https://www.youtube.com/">
+            <i class="fa fa-youtube w3-hover-opacity w3-margin-right"></i>
+        </a>
+        <a href="https://soundcloud.com/">
+            <i class="fa fa-soundcloud w3-hover-opacity w3-margin-right"></i>
+        </a>
+        <a href="https://open.spotify.com/">        
+            <i class="fa fa-spotify w3-hover-opacity w3-margin-right"></i>
+        </a>
+        <a href="https://open.spotify.com/">        
+            <i class="fa fa-apple w3-hover-opacity w3-margin-right"></i>
+        </a>
+        <a href="https://music.amazon.com/">
+            <i class="fa fa-amazon w3-hover-opacity w3-margin-right"></i>
+        </a>
       </div>
     </div>
+    <h3 class="w3-center">VILKA ÄR VI?</h3>
     <!-- Hide this text on small devices -->
     <div class="w3-center">
       <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -121,42 +140,44 @@ body, html {
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   
-  <p class="w3-center"><em>Checka våra senaste avsnitt<br> JOJIHOHA</em></p><br>
+  <p class="w3-center"><em>Checka våra senaste avsnitt<br> </em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="images/avsnitt1.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+        
+        <img src="images/avsnitt1.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt= "Dagens nyckel till frihet">      
     </div>
 
     <div class="w3-col m3">
-      <img src="images/avsnitt2.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+      <img src="images/avsnitt2.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt= "Ta en promenad i ditt undermedvetna">
+      
     </div>
 
     <div class="w3-col m3">
-      <img src="images/avsnitt3.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+      <img src="images/avsnitt3.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="Är Ai en vän?">
     </div>
 
     <div class="w3-col m3">
-      <img src="images/avsnitt4.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+      <img src="images/avsnitt4.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="Sanningen bakom globalisering">
     </div>
   </div>
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
-      <img src="images/avsnitt5.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+      <img src="images/avsnitt5.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="Den nya mataffären">
     </div>
 
     <div class="w3-col m3">
-      <img src="images/avsnitt6.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+      <img src="images/avsnitt6.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="Andromeda">
     </div>
 
     <div class="w3-col m3">
-      <img src="images/avsnitt7.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+      <img src="images/avsnitt7.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="Hur nära vi en utopi?">
     </div>
 
     <div class="w3-col m3">
-      <img src="images/avsnitt8.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+      <img src="images/avsnitt8.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="Bygg en dator på internet">
     </div>
     <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">SE MER</button>
   </div>
@@ -168,6 +189,11 @@ body, html {
   <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
     <img id="img01" class="w3-image">
     <p id="caption" class="w3-opacity w3-large"></p>
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
   </div>
 </div>
 
@@ -225,13 +251,18 @@ body, html {
  
 </footer>
  
+<!-- Här deklarerar vi våran audio-->
+
 <script>
+    
+
 // Modal Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
+
 }
 
 // Change style of navbar on scroll
