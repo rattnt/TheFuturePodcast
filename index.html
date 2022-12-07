@@ -26,13 +26,13 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('images/First\ image\ logo.jpg');
+  background-image: url("images/bakgrund4.jpg");
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("images/First image logo.jpg");
+  background-image: url("images/bakgrund3.jpg");
   min-height: 400px;
 }
 
@@ -66,8 +66,8 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-calendar"></i> SENASTE</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> AVSNITT</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> KONTAKTA OSS</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
+   
+  
     </a>
   </div>
 
@@ -98,7 +98,9 @@ body, html {
     <source src="images/podcast.ogg" type="audio/ogg">
   </audio>
 </div>
-  
+<div class="w3-center">
+  <p>Lyssna även här</p>
+</div>
   <div class="w3-row">
      <div class="w3-center">
       <div class="w3-xlarge w3-section">
@@ -140,7 +142,7 @@ body, html {
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   
-  <p class="w3-center"><em>Checka våra senaste avsnitt<br> </em></p><br>
+  <p class="w3-center"><em>Checka våra avsnitt<br> </em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
@@ -163,7 +165,7 @@ body, html {
     </div>
   </div>
 
-  <div class="w3-row-padding w3-center w3-section">
+  <div class="w3-row-padding w3-center w3-section w3-margin-bottom">
     <div class="w3-col m3">
       <img src="images/avsnitt5.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="Den nya mataffären">
     </div>
@@ -179,10 +181,35 @@ body, html {
     <div class="w3-col m3">
       <img src="images/avsnitt8.jpg" style="width:100%" height="150" onclick="onClick(this)" class="w3-hover-opacity" alt="Bygg en dator på internet">
     </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">SE MER</button>
+    <div class="w3-center w3-row-padding ">
+      <p>Lyssna även här</p>
+    </div>
+      <div class="w3-row">
+         <div class="w3-center">
+          <div class="w3-xlarge w3-section">
+            <a href="https://www.youtube.com/">
+                <i class="fa fa-youtube w3-hover-opacity w3-margin-right"></i>
+            </a>
+            <a href="https://soundcloud.com/">
+                <i class="fa fa-soundcloud w3-hover-opacity w3-margin-right"></i>
+            </a>
+            <a href="https://open.spotify.com/">        
+                <i class="fa fa-spotify w3-hover-opacity w3-margin-right"></i>
+            </a>
+            <a href="https://open.spotify.com/">        
+                <i class="fa fa-apple w3-hover-opacity w3-margin-right"></i>
+            </a>
+            <a href="https://music.amazon.com/">
+                <i class="fa fa-amazon w3-hover-opacity w3-margin-right"></i>
+            </a>
+          </div>
+        </div>
+        
   </div>
 </div>
 
+
+  </div>
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
@@ -216,7 +243,7 @@ body, html {
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Uppsala, Swe<br>
         <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: grabbarnaGrus@contact.com<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: grabbarnagrus@contact.com<br>
       </div>
       <p>Skicka ett meddelande!</p>
       <form action="/action_page.php" target="_blank">
